@@ -2,25 +2,25 @@ body {
     font-family:"Roboto",arial;
 }
 
-.header {
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    background-color:#1F2937;
-}
-
 ul {
     display:flex;
     list-style:none;
     gap:24px;
     font-size:18px;
     color:#E5E7EB;
+    margin:0;
 }
 
 .title {
     font-size:24px;
     font-weight:700;
     color:#F9FAF8;
+}
+
+ul,
+.title {
+    margin-top:18px;
+    margin-bottom:100px;
 }
 
 /* HERO */
@@ -47,13 +47,6 @@ button {
     border-radius:8px;
 }
 
-.hero {
-    display:flex;
-    background-color:#1F2937;
-    justify-content:space-between;
-    
-}
-
 .hero-text {
     display:flex;
     flex-direction:column;
@@ -64,3 +57,21 @@ button {
     padding:100px;
     background-color:grey;
 }
+
+
+.header-hero {
+    background-color:#1F2937;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+
+ .right {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+} 
+
+
+
+
