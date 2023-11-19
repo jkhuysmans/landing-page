@@ -20,7 +20,7 @@ ul {
 
 .title {
     font-size:24px;
-    font-weight:700;
+    font-weight:800;
     color:#F9FAF8;
 }
 
@@ -155,7 +155,7 @@ button {
 
 .quote-author {
     color:#1F2937;
-    font-weight:700;
+    font-weight:800;
     font-size:24px;
     margin:0;
     display:flex;
@@ -176,7 +176,7 @@ button {
 
 .action-bold {
     color:white;
-    font-weight:700;
+    font-weight:800;
     font-size:24px;
 }
 
