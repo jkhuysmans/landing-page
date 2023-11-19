@@ -31,12 +31,15 @@ ul,
     font-size:48px;
     font-weight:800;
     color:#F9FAF8;
+    margin-bottom:-4px;
     
 }
 
 .hero-secondary {
     font-size:18px;
     color:#E5E7EB;
+    margin-top:10px;
+    margin-bottom:10px;
     
 }
 
@@ -49,7 +52,7 @@ button {
     padding-right:32px;
     width: fit-content;
     border-radius:8px;
-    margin-top:8px;
+
 }
 
 .hero-text {
@@ -85,6 +88,7 @@ button {
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin-bottom:100px;
 }
 
 .information-header {
@@ -122,7 +126,36 @@ button {
     text-align: center;
     font-size:18px;
     color:#1F2937;
+    
 }   
 
+/* */
 
+.quote-container {
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    padding:100px;
+}
 
+.quote-text {
+    font-size:36px;
+    font-weight:300;
+    color:#1F2937;
+    margin:0;
+}
+
+.quote-author {
+    color:#1F2937;
+    font-weight:700;
+    font-size:24px;
+    margin:0;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:30px;
+}
+
+.second-container {
+    display:flex;
+    flex-direction:column;
+}
