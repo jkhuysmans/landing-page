@@ -9,6 +9,9 @@ p {
     padding:0;
 }
 
+
+/* Header and hero */
+
 ul {
     display:flex;
     list-style:none;
@@ -29,8 +32,13 @@ ul,
     margin-top:18px;
     margin-bottom:100px;
 }
-
-/* HERO */
+.header-hero {
+    background-color:#1F2937;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding:0px 128px 128px 128px;
+}
 
 .hero-main-text {
     font-size:48px;
@@ -74,22 +82,13 @@ button {
     background-color:grey;
 }
 
-
-.header-hero {
-    background-color:#1F2937;
-    display:flex;
-    justify-content:space-around;
-    align-items:flex-start;
-    padding:0px 128px 128px 128px;
-}
-
  .right {
     display:flex;
     flex-direction:column;
     align-items:flex-end;
 } 
 
-/* */
+/* information */
 
 .information {
     display:flex;
@@ -137,7 +136,7 @@ button {
     
 }   
 
-/* */
+/* quote */
 
 .quote-container {
     background-color:#E5E7EB;
@@ -163,7 +162,7 @@ button {
     margin-right:30px;
 }
 
-/* */
+/* call to action */
 
 .call-to-action {
     background-color:#3882F6;
